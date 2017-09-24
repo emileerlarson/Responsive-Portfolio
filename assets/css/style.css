@@ -122,35 +122,11 @@ form{
 	color: teal;
 	border-bottom: 2px solid black;
 }
-#hangman{
+#img{
 	position: relative;
 	z-index: 2;
 	float: left;
 	margin: 50px
-}
-#RPG{
-	position: relative;
-	z-index: 2;
-	float: left;
-	margin: 50px;
-}
-#trivia{
-	position: relative;
-	z-index: 2;
-	float: left;
-	margin: 50px;
-}
-#rutgers{
-	position: relative;
-	z-index: 2;
-	float: left;
-	margin: 50px;
-}
-#rock{
-	position: relative;
-	z-index: 2;
-	float: left;
-	margin: 50px;	
 }
 .banner{
 	background: teal;
@@ -162,4 +138,117 @@ form{
 	z-index: 3;
 	text-align: center;
 	padding: 15px;
+}
+@media screen and (max-width: 980px){
+	.name{
+		margin-left: 50px;
+	}
+	#pagelink{
+		font-size: 20px;
+	}
+	.box{
+		width: 400px;
+		height: 1400px;
+		margin: 20px 0px 40px 70px;
+	}
+	.connect{
+		margin: 20px;
+	}
+	form{
+		background: white;
+		width: 430px;
+		height: 530px;
+		padding: 20px;
+		margin: 20px 1px 50px 100px;
+		font-size: 24px;
+		float: left;
+		border: 2px solid;
+	}
+	#back{
+		width: 400px;
+		margin: 20px 10px 40px 70px;
+		height: 1700px;
+	}
+}
+@media screen and (max-width: 768px){
+	.name{
+		margin-left: 5px;
+	}
+	#pagelink{
+		font-size: 20px;
+	}
+	.box{
+		width: 700px;
+		height: 840px;
+		margin: 10px;
+	}
+	.connect{
+		width: 700px;
+		margin: 20px 10px 40px 10px;
+		text-align: left;
+		padding: 20px;
+	}
+	form{
+		background: white;
+		width: 700px;
+		height: 530px;
+		padding: 20px;
+		margin: 10px;
+		font-size: 24px;
+		float: left;
+		border: 2px solid;
+	}
+	#back{
+		width: 700px;
+		margin: 20px 10px 40px 10px;
+		height: 1130px;
+		padding: 10px;
+	}
+}
+
+@media screen and (max-width: 640px){
+	header{
+		height: 150px;
+		width: 100%;
+	}	
+	.name{
+		width: 100%;
+		margin: 0;
+	}
+	#pagelink{
+		font-size: 20px;
+		width: 100%;
+		font-size: 34px;
+		padding: 10px;
+	}
+	.box{
+		width: 570px;
+		height: 1050px;
+		margin: 10px;
+	}
+	.connect{
+		width: 570px;
+		margin: 20px 10px 40px 10px;
+		text-align: left;
+		padding: 20px;
+	}
+	form{
+		background: white;
+		width: 570px;
+		height: 530px;
+		padding: 20px;
+		margin: 10px;
+		font-size: 24px;
+		float: left;
+		border: 2px solid;
+	}
+	#back{
+		width: 570px;
+		margin: 20px 10px 40px 10px;
+		height: 1700px;
+		padding: 10px;
+	}
+	#img{
+		padding: 0px 100px;
+	}
 }
